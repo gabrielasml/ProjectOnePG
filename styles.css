@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  display: flex;
+  flex-wrap: wrap;
+}
+.header{
+  
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  /* width: 100%; */
+  border: 1px solid white;
+  /* //center and space */
+}
+h1{
+ width: 100%;
+}
+img{
+  margin: 5px;
+  border-radius: 1%;
+  height: 210px;
+  width: 225px;
+  border: 3px solid white;
+}
+body{
+  background-color: #113A78;
+}
+div{
+  justify-content:center;
+}
+@media screen and (max-width: 1000px) {
+ img{
+    height: 400px;
+    width: 450px;
+    }
